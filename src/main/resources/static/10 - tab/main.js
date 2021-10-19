@@ -5,8 +5,6 @@
 // -- posiada uporządkową (kolejność jest ważna) zbiór wartości
 // -- każda przechowywana wartość w tablicy ma swój indeks. Pierwsza wartość ma indeks 0
 
-
-
 // TWORZENIE TABLICY
 
 // Literał tablicy z podaniem zawartości
