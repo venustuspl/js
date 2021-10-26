@@ -2,7 +2,6 @@
 // Operator rest (ES6) - wiele elementów podanych jako argumenty do jednej tablicy
 //...nazwa (dowolna zgodnie z zasadami dla zmiennej)
 // zwraca tablicę (arguments nie jest tablicą)
-
 function showAllArguments(...items) {
  console.log(items);
  // console.log(arguments[5]);
