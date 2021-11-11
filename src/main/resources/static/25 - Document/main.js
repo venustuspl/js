@@ -51,4 +51,7 @@ window.scrollY; //wartość skrola
 
 // setInterval(() => console.log(++timer), 1000)
 
-const btn = document.querySelector("button")
+const btn = document.querySelector("button");
+btn.addEventListener("click", function() {
+    console.log("klik!");
+})
