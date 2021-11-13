@@ -46,6 +46,7 @@ JAVASCRIPT
 </head>
 <body>
 <button>Utwórz element</button>
+<div class="myDiv">element</div>
 <script>
         const btn = document.querySelector("button");
         let number = 1;
@@ -61,6 +62,15 @@ JAVASCRIPT
             number++;
             activeNumber++;
            }
+        const myDiv = document.querySelector('.myDiv');
+        const hideMyDiv = function (){
+                if (myDiv.style.display === "none") {
+                    myDiv.style.display = "block";
+                } else {
+                    myDiv.style.display = "none";
+                }
+        }
+        myDiv.addEventListener('click', hideMyDiv);
 </script>
 </body>
 </html>
